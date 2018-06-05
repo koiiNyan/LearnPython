@@ -12,10 +12,9 @@ def read_excel(filename):
         if worksheet.cell(row=row, column=2).value is None:
             break
 
-        excel_row['DepAff'] = worksheet.cell(row=row, column=2).value
-        excel_row['AdmArea'] = worksheet.cell(row=row, column=5).value
         excel_row['District'] = worksheet.cell(row=row, column=6).value
         excel_row['Location'] = worksheet.cell(row=row, column=7).value
+        excel_row['Working_Hours'] = worksheet.cell(row=row, column=12).value
 
         excel_data.append(excel_row)
         
