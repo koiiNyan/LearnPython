@@ -39,9 +39,9 @@ class User(Base): #class User nasleduetsya ot klassa Base, obladaet vsemi vozmoj
         self.email = email
 
 
-    #Print user first name, last name
+    #Print the data from db
     def __repr__(self):
-        return '<User {} {}'.format(self.first_name, self.last_name)
+        return '<User {} {} {}'.format(self.first_name, self.last_name, self.email)
 
 
 
