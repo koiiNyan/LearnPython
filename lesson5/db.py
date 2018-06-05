@@ -1,6 +1,8 @@
 from sqlalchemy import create_engine
-from sqlalchemy import Column, Integer, String
-from sqlalchemy.orm import scoped_session, sessionmaker
+from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey 
+#ForeignKey- vnesniyi kluch, otvechaet za svyaz s drugimi tablicami
+
+from sqlalchemy.orm import scoped_session, sessionmaker, relationship
 from sqlalchemy.ext.declarative import declarative_base
 
 
@@ -27,6 +29,10 @@ class User(Base): #class User nasleduetsya ot klassa Base, obladaet vsemi vozmoj
                                              #s takim je email,  BD vernet oshibku, chhto email uje est'
 
 
+    posts = relationship('Post', backref='author')
+
+
+
 
 #OB'YAVLYAEM FUNKTSII VNUTRI CLASSA (METOD)
 
@@ -44,6 +50,25 @@ class User(Base): #class User nasleduetsya ot klassa Base, obladaet vsemi vozmoj
         return '<User {} {} {}'.format(self.first_name, self.last_name, self.email)
 
 
+
+
+
+class Post(Base):
+    __tablename__ = 'posts'
+    id = Column(Integer, primary_key=True)
+    title = Column(String(140))
+    image = Column(String(500))
+    published = Column(DateTime)
+    content = Column(Text)
+    user_id = Column(Integer, ForeignKey('users.id')) #Svyazivaem posts s user po kolonke id
+
+
+    def __init__(self, title=None, image=None, published=None, content=None, user_id=None):
+        self.title = title
+        self.image = image
+        self.published = published
+        self.content = content
+        self.user_id = user_id
 
 
 if __name__ == '__main__':
