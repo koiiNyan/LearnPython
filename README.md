@@ -4,5 +4,7 @@
 
 ## План занятий:
 
-- [Неделя один](https://github.com/ovinnikova/LearnPython/blob/master/lesson1/README.md)
+- [Первая неделя](https://github.com/ovinnikova/LearnPython/blob/master/lesson1/README.md)
+
+- [Вторая неделя](https://github.com/ovinnikova/LearnPython/blob/master/lesson2/README.md)
 

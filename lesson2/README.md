@@ -1,3 +1,7 @@
-# Learn Python 9
-#### 12.05.2018 - 
-**2nd lesson** - homework & practice
+# План занятий:
+
+- Оператор **if**
+- Цикл **for**
+- Цикл **while**
+- Exceptions
+- Модули
