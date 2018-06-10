@@ -4,7 +4,10 @@
 
 ## План занятий:
 
-- [Первая неделя](https://github.com/ovinnikova/LearnPython/blob/master/lesson1/README.md)
+- [Первая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson1)
 
-- [Вторая неделя](https://github.com/ovinnikova/LearnPython/blob/master/lesson2/README.md)
+- [Вторая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson2)
+
+- [Третья неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson3)
+
 
