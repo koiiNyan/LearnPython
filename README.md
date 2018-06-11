@@ -10,4 +10,6 @@
 
 - [Третья неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson3)
 
+- [Четвертая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson4)
 
+- [Пятая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson5)
