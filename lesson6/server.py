@@ -4,7 +4,7 @@ my_flask_app = Flask(__name__)
 
 @my_flask_app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', title='Свежие новости')
 
 @my_flask_app.route('/all/')
 def all_news():
