@@ -6,7 +6,7 @@ def test_hello():
     assert hello("World") == "Hello World!"
 
 
-#test_hello()
+test_hello()
 
-name = input("Enter your name: ")
-print(hello(name))
+#name = input("Enter your name: ")
+#print(hello(name))

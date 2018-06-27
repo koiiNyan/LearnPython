@@ -6,7 +6,7 @@ def test_hello():
 
 
 def hello2():
-    return "Привет!"
+    return "Noon!"
 
 def test_hello2():
     assert hello2() == "Hello!"
