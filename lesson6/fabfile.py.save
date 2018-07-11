@@ -1,0 +1,14 @@
+rom fabric.api import env, run, local, cd
+
+import os
+
+jj = os.path.join("/", "home")
+HOME = os.getenv("jj")
+
+env.hosts = ["54.164.88.110"]
+env.user = "ubuntu"
+env.key_filename = ["%s/keyvirg.pem"%HOME]
+
+def test():
+    run("date")
+    local("date")
