@@ -13,3 +13,13 @@
 - [Четвертая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson4)
 
 - [Пятая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson5)
+
+- [Шестая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson6)
+
+- [Седьмая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson7)
+
+- [Восьмая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson8)
+
+- [Девятая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson9)
+
+- [Десятая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson10)
