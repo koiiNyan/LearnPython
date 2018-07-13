@@ -1,0 +1,15 @@
+h1 {
+    color: #256a88;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.buttons {
+    margin: 10px 0px 20px 0px;
+}
+#result {
+    position: relative;
+    width: 800px;
+}
+.red {
+    color: red;
+}
