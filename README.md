@@ -26,3 +26,5 @@
 
 # Проект
 https://github.com/ovinnikova/game
+#
+![Сертификат](Сертификат.png)
