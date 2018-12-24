@@ -23,3 +23,6 @@
 - [Девятая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson9)
 
 - [Десятая неделя](https://github.com/ovinnikova/LearnPython/tree/master/lesson10)
+
+# Проект
+https://github.com/ovinnikova/game
